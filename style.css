@@ -70,11 +70,13 @@ nav {
 /* -----------about------------ */
 #about {
   /* padding: 1.5rem; */
+  height:700px;
   color: #948f8f;
-  margin: 150px;
+  margin: 50px;
+  background-color: whitesmoke;
   background-size: cover;
   background-position: center;
-  border-radius: 2rem;
+  border-radius: 10rem;
   text-align: center;
 }
 
@@ -108,10 +110,22 @@ nav {
   text-align: center;
 }
 
-.skills-items {
+
+
+#skills .container{
+    
+    height: 1000px;
+    background-color: whitesmoke;
+    border-radius: 10rem;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+.skills-container{
   
 }
 
-#skills .container{
-    background-color: antiquewhite;
+.skills-items {
+  
 }
