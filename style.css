@@ -154,6 +154,7 @@ html {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
+  gap: 20px;
 }
 
 .skill-item {
@@ -193,6 +194,7 @@ html {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
+  gap: 8px;
 
 }
 
@@ -203,7 +205,7 @@ html {
   height: 400px;
   padding: 40px;
   /* Increased padding to maintain visual balance */
-  margin: 40px;
+  margin: 20px;
   /* Increased margin to maintain spacing */
   justify-content: center;
   align-items: center;
