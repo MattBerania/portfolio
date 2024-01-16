@@ -1,76 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="menu-container">
-      <div class="menu">
-        <div class="logo">Matthew <b>Berania</b></div>
-        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        <li class="nav-item">
-          <a href="#projects" class="nav-link">Projects</a>
-        </li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/eba755cd89.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="menu-container">
+    <div class="menu">
+      <div class="logo">Matthew <b>Berania</b></div>
+      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item">
+        <a href="#projects" class="nav-link">Projects</a>
+      </li>
+      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+    </div>
+  </div>
+
+  <div class="about-container">
+    <div class="about" id="about">
+      <p class="header">About Me</p>
+      <div class="image">
+        <img src="images/Me.jpg" width="300px" alt="me.jpg" />
+      </div>
+
+      <a href="#contact" class="hire">HIRE ME</a>
+
+      <div class="about-me">
+        <p>
+          Hi I'm <b>Matthew</b>, and I'm a 2nd-year <b>Computer Science</b> Student at <b>Toronto Metropolian University</b> and enrolled in their <b>Co-op</b> program, interested
+          in Web-development and Machine learning.
+        </p>
+        <p>
+          Through school and my own research, I'm experienced with <em>Java, Python, HTML, CSS, C, Bash, Linux, Windows OS,
+          and Mac OS.</em>
+        </p>
       </div>
     </div>
+  </div>
 
-    <div class="about-container">
-      <div class="about" id="about">
-        <p class="header">About Me</p>
-        <div class="image">
-          <img src="images/Me.jpg" width="300px" alt="me.jpg" />
+  <div class="skills-container" id="skills">
+    <p class="header">Skills</p>
+    <div class="skills">
+      <div class="skill-item first"><i class="fa-brands fa-java"></i> Java</div>
+      <div class="skill-item"><i class="fa-brands fa-python"></i>Python</div>
+      <div class="skill-item"><i class="fa-brands fa-html5"></i>HTML</div>
+      <div class="skill-item"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+      <div class="skill-item last"><i class="fa-solid fa-c"></i></div>
+      <div class="skill-item last">&#10003;Bash</div>
+      <div class="skill-item last"><i class="fa-brands fa-linux"></i>Linux</div>
+    </div>
+  </div>
+
+  <div class="projects-container" id="projects">
+    <p class="header">Projects</p>
+    <div class="projects">
+      <div class="project-item">
+        <p class="sub-header">Portfolio Website</p>
+        <a href="https://mattberania.github.io/portfolio/" target="_blank"><img src="images/MyWebsite.jpg" class="img"
+            width="350px" alt="Portfolio Website"></a>
+        <hr>
+        <p>- created with
+          <em><b>Html</b>
+            <i class="fa-brands fa-html5 fa-xl" style="color: #000000;"></i>
+            and
+            <b>CSS</b></em>
+          <i class="fa-brands fa-css3-alt fa-xl" style="color: #000000;"></i>
+        </p>
+      </div>
+      <div class="project-item">
+        <p class="sub-header">Music Player Simulator</p>
+        <a href="https://github.com/MattBerania/Music-Player-Simulator" target="_blank">
+          <img src="images/musicPlayer.jpg" class="img" width="250px" alt="music player">
+        </a>
+        <hr>
+        <p>- created with
+          <em><b>Java</b></em>
+          <i class="fa-brands fa-java fa-xl" style="color: #000000;"></i>
+        </p>
+      </div>
+      <!-- <div class="project-item">
         </div>
-        <div class="about-me">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
-            aperiam dignissimos autem? Et minus possimus neque illum natus
-            reiciendis praesentium velit, quidem, itaque provident alias nobis
-            ea fugiat aut! Quaerat.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-            temporibus libero cumque deserunt, odio unde earum nam vel voluptate
-            inventore consectetur aut consequuntur atque sunt accusamus ad
-            harum! Repellendus, provident.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="skills-container" id="skills">
-      <p class="header">Skills</p>
-      <div class="skills">
-        <div class="skill-item first">&#10003;Java</div>
-        <div class="skill-item">&#10003;Python</div>
-        <div class="skill-item">&#10003;HTML</div>
-        <div class="skill-item">&#10003;CSS</div>
-        <div class="skill-item last">&#10003;C</div>
-      </div>
-    </div>
-
-    <div class="projects-container" id="projects">
-      <p class="header">Projects</p>
-      <div class="projects">
         <div class="project-item">
-            <p class="sub-header">Portfolio Website</p>
-            <a href=""><img 
-                src="images/MyWebsite.jpg" 
-                class="img"
-                alt="Portfolio Website"></a>
-                <hr>
-            <p>- created with
-                <em><b>Html</b> and <b>CSS</b></em>
-            </p>
-        </div>
-        <div class="project-item"></div>
-        <div class="project-item"></div>
-        <div class="project-item"></div>
-      </div>
+
+        </div> -->
     </div>
-  </body>
+  </div>
+
+  <hr>
+
+  <div class="contact-container" id="contact">
+    <p class="contact-me">Get in touch with me!</p>
+    <div class="contact">
+      <div class="email"><b>mberania@torontomu.ca</b></div>
+      <div class="linkedin"><a href="https://www.linkedin.com/in/matthew-berania/" target="_blank"><i
+            class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a></div>
+      <div class="github"><a href="https://github.com/MattBerania" target="_blank"><i class="fa-brands fa-github fa-2xl"
+            style="color: #000000;"></i></a></div>
+      <div class="resume"><a href="images/Matthew-Berania-Resume.pdf" target="_blank">RESUME</a></div>
+    </div>
+  </div>
+</body>
+
 </html>
