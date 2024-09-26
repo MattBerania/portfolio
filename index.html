@@ -1,122 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Berania</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/eba755cd89.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matthew Berania</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/eba755cd89.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-  <div class="menu-container">
-    <div class="menu">
-      <div class="logo">Matthew <b>Berania</b></div>
-      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-      <li class="nav-item">
-        <a href="#projects" class="nav-link">Projects</a>
-      </li>
-      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-    </div>
-  </div>
-
-  <div class="about-container">
-    <div class="about" id="about">
-      <p class="header">About Me</p>
-      <div class="image">
-        <img src="images/Me.jpg" width="300px" alt="me.jpg" />
-      </div>
-
-      <a href="#contact" class="hire">HIRE ME</a>
-
-      <div class="about-me">
-        <p>
-          Hi I'm <b>Matthew</b>, and I'm a 2nd-year <b>Computer Science</b> Student at <b>Toronto Metropolian
-            University</b> and enrolled in their <b>Co-op</b> program, interested
-          in Web-development and Machine learning.
-        </p>
-        <p>
-          Through school and my own research, I'm experienced with <em>Java, Python, HTML, CSS, C, Bash, Linux, Windows
-            OS,
-            and Mac OS.</em>
-        </p>
+  <body>
+    <div class="menu-container">
+      <div class="menu">
+        <div class="logo">Matthew <b>Berania</b></div>
+        <div class="nav-item-container">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="skills-container" id="skills">
-    <p class="header">Skills</p>
-    <div class="skills">
-      <div class="skill-item first"><i class="fa-brands fa-java"></i> Java</div>
-      <div class="skill-item"><i class="fa-brands fa-python"></i>Python</div>
-      <div class="skill-item"><i class="fa-brands fa-html5"></i>HTML</div>
-      <div class="skill-item"><i class="fa-brands fa-css3-alt"></i>CSS</div>
-      <div class="skill-item last"><i class="fa-solid fa-c"></i></div>
-      <div class="skill-item last">&#10003;Bash</div>
-      <div class="skill-item last"><i class="fa-brands fa-linux"></i>Linux</div>
+    <div class="about-container">
+      <div class="about" id="about">
+        <p class="header">About Me</p>
+        <div class="image">
+          <img src="images/Me.jpg" width="300px" alt="me.jpg" />
+        </div>
+
+        <a href="#contact" class="hire">HIRE ME</a>
+
+        <div class="about-me">
+          <p>
+            Hi I'm <b>Matthew</b>, and I'm a 2nd-year
+            <b>Computer Science</b> Student at
+            <b>Toronto Metropolian University</b> and enrolled in their
+            <b>Co-op</b> program, interested in Web-development and Machine
+            learning.
+          </p>
+          <p>
+            Through school and my own research, I'm experienced with
+            <em
+              >Java, Python, HTML, CSS, C, Bash, Linux, Windows OS, and Mac
+              OS.</em
+            >
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="projects-container" id="projects">
-    <p class="header">Projects</p>
-    <div class="projects">
-      <div class="project-item">
-        <p class="sub-header">Portfolio Website</p>
-        <a href="https://mattberania.github.io/portfolio/"><img src="images/MyWebsite.jpg" class="img" width="350px"
-            alt="Portfolio Website"></a>
-        <hr>
-        <p>- created with
-          <em><b>Html</b>
-            <i class="fa-brands fa-html5 fa-xl" style="color: #000000;"></i>
-            and
-            <b>CSS</b></em>
-          <i class="fa-brands fa-css3-alt fa-xl" style="color: #000000;"></i>
-        </p>
+    <div class="skills-container" id="skills">
+      <p class="header">Skills</p>
+      <div class="skills">
+        <div class="skill-item first">
+          <i class="fa-brands fa-java"></i> Java
+        </div>
+        <div class="skill-item"><i class="fa-brands fa-python"></i>Python</div>
+        <div class="skill-item"><i class="fa-brands fa-html5"></i>HTML</div>
+        <div class="skill-item"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+        <div class="skill-item last"><i class="fa-solid fa-c"></i></div>
+        <div class="skill-item last">&#10003;Bash</div>
+        <div class="skill-item last">
+          <i class="fa-brands fa-linux"></i>Linux
+        </div>
       </div>
-      <div class="project-item">
-        <p class="sub-header">Music Player Simulator</p>
-        <a href="https://github.com/MattBerania/Music-Player-Simulator" target="_blank">
-          <img src="images/musicPlayer.jpg" class="img" width="250px" alt="music player">
-        </a>
-        <hr>
-        <p>- created with
-          <em><b>Java</b></em>
-          <i class="fa-brands fa-java fa-xl" style="color: #000000;"></i>
-        </p>
-      </div>
-      <div class="project-item">
-        <p class="sub-header">Base Converter Calculator</p>
-        <a href="https://github.com/MattBerania/base-converter-calculator" target="_blank">
-          <img src="images/pythonAutomation.jpg" class="img" width="250px" alt="calculator">
-        </a>
-        <hr>
-        <p>- created with
-          <em><b>Python</b></em>
-          <i class="fa-brands fa-python fa-xl"></i>
-        </p>
-      </div>
-      <!-- <div class="project-item">
+    </div>
+
+    <div class="projects-container" id="projects">
+      <p class="header">Projects</p>
+      <div class="projects">
+        <div class="project-item">
+          <p class="sub-header">Portfolio Website</p>
+          <a href="https://mattberania.github.io/portfolio/"
+            ><img
+              src="images/MyWebsite.jpg"
+              class="img"
+              alt="Portfolio Website"
+          /></a>
+          <hr />
+          <p>
+            - created with
+            <em
+              ><b>Html</b>
+              <i class="fa-brands fa-html5 fa-xl" style="color: #000000"></i>
+              and
+              <b>CSS</b></em
+            >
+            <i class="fa-brands fa-css3-alt fa-xl" style="color: #000000"></i>
+          </p>
+        </div>
+        <div class="project-item">
+          <p class="sub-header">Music Player Simulator</p>
+          <a
+            href="https://github.com/MattBerania/Music-Player-Simulator"
+            target="_blank"
+          >
+            <img
+              src="images/musicPlayer.jpg"
+              class="img"
+              alt="music player"
+            />
+          </a>
+          <hr />
+          <p>
+            - created with
+            <em><b>Java</b></em>
+            <i class="fa-brands fa-java fa-xl" style="color: #000000"></i>
+          </p>
+        </div>
+        <div class="project-item">
+          <p class="sub-header">Base Converter Calculator</p>
+          <a
+            href="https://github.com/MattBerania/base-converter-calculator"
+            target="_blank"
+          >
+            <img
+              src="images/pythonAutomation.jpg"
+              class="img"
+              alt="calculator"
+            />
+          </a>
+          <hr />
+          <p>
+            - created with
+            <em><b>Python</b></em>
+            <i class="fa-brands fa-python fa-xl"></i>
+          </p>
+        </div>
+        <!-- <div class="project-item">
 
       </div> -->
+      </div>
     </div>
-  </div>
 
-  <hr>
+    <hr />
 
-  <div class="contact-container" id="contact">
-    <p class="contact-me">Get in touch with me!</p>
-    <div class="contact">
-      <div class="email"><b>mberania@torontomu.ca</b></div>
-      <div class="linkedin"><a href="https://www.linkedin.com/in/matthew-berania/" target="_blank"><i
-            class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a></div>
-      <div class="github"><a href="https://github.com/MattBerania" target="_blank"><i class="fa-brands fa-github fa-2xl"
-            style="color: #000000;"></i></a></div>
-      <div class="resume"><a href="images/Resume.pdf" target="_blank">RESUME</a></div>
+    <div class="contact-container" id="contact">
+      <p class="contact-me">Get in touch with me!</p>
+      <div class="contact">
+        <div class="email"><b>mberania@torontomu.ca</b></div>
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/matthew-berania/" target="_blank"
+            ><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000"></i
+          ></a>
+        </div>
+        <div class="github">
+          <a href="https://github.com/MattBerania" target="_blank"
+            ><i class="fa-brands fa-github fa-2xl" style="color: #000000"></i
+          ></a>
+        </div>
+        <div class="resume">
+          <a href="images/Resume.pdf" target="_blank">RESUME</a>
+        </div>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
