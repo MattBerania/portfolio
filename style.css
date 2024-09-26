@@ -281,6 +281,7 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-  .menu-container {
+  .menu{
+    display: block;
   }
 }
